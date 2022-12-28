@@ -70,3 +70,6 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Telescope
 keymap("n", "<A-f>", ":Telescope<CR>", opts)
+
+-- Zenmode + Softpencil
+keymap("n", "<leader>z", ":ZenMode<CR>:SoftPencil<CR>", opts)

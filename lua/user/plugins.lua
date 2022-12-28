@@ -93,7 +93,7 @@ return packer.startup(function(use)
 	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
 
   -- Focus mode and writing
-  -- use {"preservim/vim-pencil"} -- pencil mode for writing
+  use {"preservim/vim-pencil"} -- pencil mode for writing
   use {
     "folke/zen-mode.nvim",
     config = function()
