@@ -1,3 +1,4 @@
+-- Tip to my younger self: if you also write the extension of the file it will appear sooner
 local status_ok, telescope = pcall(require, "telescope")
 if not status_ok then
   return
@@ -26,6 +27,7 @@ telescope.setup {
         ["<Up>"] = actions.move_selection_previous,
 
         ["<CR>"] = actions.select_default,
+        ["<C-b>"] = actions.select_default,
         ["<C-x>"] = actions.select_horizontal,
         ["<C-v>"] = actions.select_vertical,
         ["<C-t>"] = actions.select_tab,
